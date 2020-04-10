@@ -63,7 +63,7 @@ spring boot 를 사용한 이유는 스프링 부트로 시큐리티 설정시 S
       </td>
     </tr>
   </tbody>
-</table>New Project  
+</table>### New Project  
 
 우선적으로 IDE에서 이제 신규 프로젝트르 만들어줍니다. \( Spring Initializr \)
 
@@ -101,7 +101,7 @@ dependencies {
 }
 ```
 
-spring boot java main 메소드와 비슷하게 생긴 application.kt 이 생성됩니다.
+### spring boot java main 메소드와 비슷하게 생긴 application.kt 이 생성됩니다.
 
 ```text
 
@@ -113,7 +113,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-이제 시큐리티에서 사용할 Account entity 를 만들어줍니다. \( src &gt; main &gt; kotlin \)
+### 이제 시큐리티에서 사용할 Account entity 를 만들어줍니다. \( src &gt; main &gt; kotlin \)
 
 ```text
 @Entity
@@ -175,7 +175,7 @@ interface AccountRepository : JpaRepository<Account, Long> {
 
 해당 Bean은 SimpleJpaRepository&lt;T , ID&gt; 인데요 나중에 추가적으로 이부분에 대해서 찾아보셔서 학습하시면 더 좋을 것 같아요.
 
-이제 는 Account 를 저장할수있는 서비스를 하나 만들어 줍니다. 
+### 이제 는 Account 를 저장할수있는 서비스를 하나 만들어 줍니다. 
 
 ```text
 @Service
@@ -264,7 +264,7 @@ class SecurityConfig(private val customUserDetailService: CustomUserDetailServic
 }
 ```
 
-
+###  오버라이드 부분
 
 * 인증관리자빌더를 오버라이드 합니다.
   * 인증 관리자 설정에서 생성자로 주입받은 customUserDetailService 를 넘겨주는데  여기서 CustomUserDetailService 는 spring security 의 userDetailService interface 를 구현한 녀석이다. 별건없고 loadUserbyUserName 만 오버라이드 했습니다.
@@ -283,8 +283,6 @@ class SecurityConfig(private val customUserDetailService: CustomUserDetailServic
     * 여기서 참고로 적어둔다면 webSecurity 부분에서 설정을 하게되면 spring security fillter 부분을 0개로 인식해서 fillter 를 타지 않게 됩니다.  
       * 하지만 httpSecurity 설정으로 permitall 설정을 해준다면 spring security filter chain에 엮인 15개 를 순차적으로 검증 받게 됩니다.  \(필터체인에 엮인 검증을 다 하지 않아도 되니 web에서 해주는게 좀더 이득.\)
     * 참고로 백기선님의 강의를 들어보면 동적인것은 httpSecurity 에 설정해주고 그게 아닌 정적 리소스 자원을 설정해주는건 webSecurity 를 사용하여 ignoring 해주는게 이득이라고 합니다. 
-
-
 
 ### 스프링 시큐리티가 제공하는 필터 목록
 
@@ -370,7 +368,7 @@ spring security 에 아키택쳐에 관한 부분과 조금더 자세한 내용�
     </tr>
   </thead>
   <tbody></tbody>
-</table>Test Code   
+</table>### Test Code   
 
 이제 위에서 만든 간단한 테스트 코드를 구현해 봅시다.
 
