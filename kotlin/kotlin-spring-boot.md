@@ -73,9 +73,7 @@ group , artifact 설정은 편하신데로 해주시면 됩니다.  \( 아래 �
 
 ![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.19.png?version=1&modificationDate=1580954245000&api=v2)
 
-![](file:///var/folders/lz/g04yfxd972x9l18lr500d_1w0000gn/T/TemporaryItems/%28screencaptureui%E1%84%8B%E1%85%B5%28%E1%84%80%E1%85%A1%29%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20%E1%84%8C%E1%85%A5%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8C%E1%85%AE%E1%86%BC%29/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-04-10%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.40.36.png)
-
-
+Dependencies 설정은 우선적으로 devtools , spring web , thymeleaf , spring security , spring data jpa , h2 database 를 선택해줍니다.
 
 ![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.59.53.png?version=1&modificationDate=1580954429000&api=v2)
 
