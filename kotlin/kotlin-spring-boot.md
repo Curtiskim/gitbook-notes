@@ -67,15 +67,15 @@ spring boot 를 사용한 이유는 스프링 부트로 시큐리티 설정시 S
 
 우선적으로 IDE에서 이제 신규 프로젝트르 만들어줍니다. \( Spring Initializr \)
 
-![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.53.58.png?version=1&modificationDate=1580954069000&api=v2)
+![](https://curtiskim.github.io/img/100.png)
 
-group , artifact 설정은 편하신데로 해주시면 됩니다.  \( 아래 참조 \) 
+group , artifact 설은 편하신데로 해주시면 됩니다.  \( 아래 참조 \) 
 
-![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.19.png?version=1&modificationDate=1580954245000&api=v2)
+![](https://curtiskim.github.io/img/101.png)
 
 Dependencies 설정은 우선적으로 devtools , spring web , thymeleaf , spring security , spring data jpa , h2 database 를 선택해줍니다.
 
-![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.59.53.png?version=1&modificationDate=1580954429000&api=v2)
+![](https://curtiskim.github.io/img/102.png)
 
 이제 위와 같이 설정을해주면 이제 gradle 의존관계에 들어가고 , 코틀린을 사용할 기본적인 셋팅이 설정됩니다
 
@@ -349,26 +349,9 @@ spring security 에 아키택쳐에 관한 부분과 조금더 자세한 내용�
 
 위 사이트에 방문하면 볼수있는 web security filter 에 관련된 그림들.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p></p>
-        <p>web security</p>
-      </th>
-      <th style="text-align:left">
-        <p></p>
-        <p>
-          <img src="http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.14.40.png?version=1&amp;modificationDate=1580969708000&amp;api=v2"
-          alt/>
-          <img src="http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.14.45.png?version=1&amp;modificationDate=1580969709000&amp;api=v2"
-          alt/>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>### Test Code   
+![](https://curtiskim.github.io/img/103.png)
+
+### Test Code   
 
 이제 위에서 만든 간단한 테스트 코드를 구현해 봅시다.
 
@@ -488,12 +471,12 @@ private fun createAccount(username: String, password: String): Account {
 
 폼 로그인으로 사용되는 폼 부분도 테스트 할수 있습니다  formLogin\(\) 과  user\(\) 를 이용해서 사용. 
 
-![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.36.56.png?version=1&modificationDate=1581061051000&api=v2)
+![](https://curtiskim.github.io/img/104.png)
 
 * **이제 위에서 만든 테스트 코드를 구동시 성공하게 됩니다.**
 * **테스트 코드를 조금더 다듬을 필요가 있다고 생각...20년 6월 전까지는 코틀린 인 액션을 좀더 정리 해두기..**
 
-\*\*\*\*
+### 참고
 
 * \`@springBootTest\` , \`@autoConfigureMockMvc\` 어노테이선을 달지 않고 , 
 * \`@extenWith springExtension.clsass \` 언노테이션이이랑 해당 컨트롤러를 테스트 할수 있습니다.
