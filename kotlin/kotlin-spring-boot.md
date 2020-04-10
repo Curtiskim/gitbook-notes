@@ -7,7 +7,7 @@ description: spring boot 와 간단하게 응용해보는 kotlin
 kotlin 1-3 시리즈는 kotlin 처음 접해본 제가 그냥 kotlin 기초를 정리해 봤다면,  이번 포스팅은 웹개발에 코틀린을 어떻게 처음 적용해볼까? 의 기초 라고 보시면 좋을 것 같습니다.
 
 {% hint style="info" %}
-이번내용은 **백기선**님 인프런 ㄱ강의 내용을 토대로 만들어봤습니다.
+이번내용은 **백기선**님 인프런 강의 내용을 토대로 만들어봤습니다.
 {% endhint %}
 
 우선 샘플프로젝트는 web application 샘플로 만들도록 하겠습니다.
@@ -72,6 +72,8 @@ spring boot 를 사용한 이유는 스프링 부트로 시큐리티 설정시 S
 group , artifact 설정은 편하신데로 해주시면 됩니다.  \( 아래 참조 \) 
 
 ![](http://wiki-digit.amorepacific.com:8090/download/attachments/1220862/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-02-06%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.19.png?version=1&modificationDate=1580954245000&api=v2)
+
+![](file:///var/folders/lz/g04yfxd972x9l18lr500d_1w0000gn/T/TemporaryItems/%28screencaptureui%E1%84%8B%E1%85%B5%28%E1%84%80%E1%85%A1%29%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20%E1%84%8C%E1%85%A5%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8C%E1%85%AE%E1%86%BC%29/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-04-10%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.40.36.png)
 
 
 
