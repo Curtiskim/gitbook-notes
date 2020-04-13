@@ -14,4 +14,5 @@
 ## Spring
 
 * [Spring Cloud](spring/spring-cloud.md)
+* [Spring Cloud Config](spring/spring-cloud-config.md)
 
