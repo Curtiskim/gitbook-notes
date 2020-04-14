@@ -32,5 +32,7 @@ description: 안녕하세요 평범한 개발자 입니다.
 
 {% page-ref page="tip/elk.md" %}
 
+{% page-ref page="tip/sonar.md" %}
+
 
 
