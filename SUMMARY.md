@@ -16,7 +16,7 @@
 
 * [2019 deview SRE 참관 후기](dev-conference/2019-deview-sre.md)
 
-## TIP <a id="tip-1"></a>
+## TIP
 
-* [ELK 로그쌓고 알람보내기 따라하기](tip-1/tip.md)
+* [ELK 로그쌓고 알람보내기 따라하기](tip/elk.md)
 
