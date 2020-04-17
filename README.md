@@ -1,5 +1,5 @@
 ---
-description: 안녕하세요 평범한 개발자 입니다.
+description: java spring kotlin 개발 공부 목록
 ---
 
 # Curtiskim Notes
