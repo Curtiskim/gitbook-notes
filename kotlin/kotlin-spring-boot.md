@@ -45,7 +45,7 @@ spring boot 를 사용한 이유는 스프링 부트로 시큐리티 설정시 S
             &#xD544;&#xC694;&#xD55C; &#xC815;&#xBCF4;</li>
           <li>Authentication
             <ul>
-              <li>Principal: &#x201C;curtiskim@naver.com&#x201D;</li>
+              <li>Principal: &#x201C;curtiskim@aaaa.com&#x201D;</li>
               <li>Credentials: &#x201C;1234&#x201D;</li>
             </ul>
           </li>
