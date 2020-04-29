@@ -23,4 +23,5 @@
 * [Test Containers](tip/test-containers.md)
 * [upsource](tip/upsource.md)
 * [APM scouter](tip/apm-scouter.md)
+* [Intelij-jira-gitflow 적용](tip/intelij-jira-gitflow.md)
 

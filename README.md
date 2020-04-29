@@ -40,6 +40,8 @@ description: java spring kotlin 개발 공부 목록
 
 {% page-ref page="tip/apm-scouter.md" %}
 
+{% page-ref page="tip/intelij-jira-gitflow.md" %}
+
 
 
  공부도하고 정리도하고 이것저것 해보자.
